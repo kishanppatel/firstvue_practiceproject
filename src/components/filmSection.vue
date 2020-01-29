@@ -16,75 +16,6 @@
                     </div>
                 </div>
             </template>
-            <!-- <div v-for="film in info" :key="film.episode_id"> -->
-                <!-- filmBefore1980s
-                film1981To1990
-                film1991To2000
-                film2001To2010
-                filmAfter2010 -->
-                <!-- <template v-if="date == '1981 - 1990'">
-                    <div class="col-md-4 mb-4 float-left" v-for="film in film1981To1990" :key="film.episode_id">
-                        <div class="card">
-                            <div class="card-body text-left">
-                                <h5 class="card-title">{{film.title}}</h5>
-                                <p>{{film.release_date}}</p>
-                                <p class="card-text">{{film.opening_crawl}}</p>
-                                <a href="#"><button class="btn btn-primary">Go Somewhere</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-                <template v-else-if="date == '1991 - 2000'">
-                    <div class="col-md-4 mb-4 float-left" v-for="film in film1991To2000" :key="film.episode_id">
-                        <div class="card">
-                            <div class="card-body text-left">
-                                <h5 class="card-title">{{film.title}}</h5>
-                                <p>{{film.release_date}}</p>
-                                <p class="card-text">{{film.opening_crawl}}</p>
-                                <a href="#"><button class="btn btn-primary">Go Somewhere</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-                <template v-else-if="date == '2001 - 2010'">
-                    <div class="col-md-4 mb-4 float-left" v-for="film in film2001To2010" :key="film.episode_id">
-                        <div class="card">
-                            <div class="card-body text-left">
-                                <h5 class="card-title">{{film.title}}</h5>
-                                <p>{{film.release_date}}</p>
-                                <p class="card-text">{{film.opening_crawl}}</p>
-                                <a href="#"><button class="btn btn-primary">Go Somewhere</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-                <template v-else-if="date == 'After 2010'">
-                    <div class="col-md-4 mb-4 float-left" v-for="film in filmAfter2010" :key="film.episode_id">
-                        <div class="card">
-                            <div class="card-body text-left">
-                                <h5 class="card-title">{{film.title}}</h5>
-                                <p>{{film.release_date}}</p>
-                                <p class="card-text">{{film.opening_crawl}}</p>
-                                <a href="#"><button class="btn btn-primary">Go Somewhere</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-                <template v-else>
-                    <template v-if="info">
-                        <div class="col-md-4 mb-4 float-left" v-for="film in filmBefore1980s" :key="film.episode_id">
-                            <div class="card">
-                                <div class="card-body text-left">
-                                    <h5 class="card-title">{{film.title}}</h5>
-                                    <p>{{film.release_date}}</p>
-                                    <p class="card-text">{{film.opening_crawl}}</p>
-                                    <a href="http://localhost:8080/#"><button class="btn btn-primary">Go Somewhere</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </template>
-                </template> -->
-            <!-- </div> -->
         </div>
     </div>
 </template>
@@ -141,31 +72,6 @@ export default {
                 }
                 
             }
-        // filmBefore1980s: function(){
-        //     return this.info.filter(film => {
-        //         return film.release_date.split('-')[0] >= 0 && film.release_date.split('-')[0] <= 1980 === true
-        //     })
-        // },
-        // film1981To1990: function(){
-        //     return this.info.filter(film => {
-        //         return film.release_date.split('-')[0] >= 1981 && film.release_date.split('-')[0] <= 1990 === true
-        //     })
-        // },
-        // film1991To2000: function(){
-        //     return this.info.filter(film => {
-        //         return film.release_date.split('-')[0] >= 1991 && film.release_date.split('-')[0] <= 2000 === true
-        //     })
-        // },
-        // film2001To2010: function(){
-        //     return this.info.filter(film => {
-        //         return film.release_date.split('-')[0] >= 2001 && film.release_date.split('-')[0] <= 2010 === true
-        //     })
-        // },
-        // filmAfter2010: function(){
-        //     return this.info.filter(film => {
-        //         return film.release_date.split('-')[0] >= 2010 && film.release_date.split('-')[0] <= 9999 === true
-        //     })
-        // }
     }
 }
 </script>
