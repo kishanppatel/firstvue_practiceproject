@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import FilmList from 'G:/javascript/Vue cli/star-wars-api/src/components/list.vue'
+import FilmList from '@/components/list.vue'
 
 const moment = require('moment')
 const axios = require("axios").default;
