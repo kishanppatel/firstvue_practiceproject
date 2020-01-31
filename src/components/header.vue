@@ -5,9 +5,6 @@
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <!-- <a href="#" class="nav-link">Home
-                  <span class="sr-only">(current)</span>
-                </a> -->
                 <router-link to="/" class="nav-link">Home</router-link>
               </li> 
               <li class="nav-item">

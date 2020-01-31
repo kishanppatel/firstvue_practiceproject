@@ -9,9 +9,9 @@
                             <h5 class="card-title">{{film.title}}</h5>
                             <p>{{film.release_date}}</p>
                             <p class="card-text">{{film.opening_crawl}}</p>
-                            <button class="btn btn-primary">                
-                                <router-link :to="{path:'/film/'+film.episode_id}" style="color: #fff;">Go Somewhere</router-link>
-                            </button>
+                            <router-link :to="{path:'/film/'+film.episode_id}" style="color: #fff;">
+                                <button class="btn btn-primary">Go Somewhere</button>
+                            </router-link>
                         </div>
                     </div>
                 </div>
